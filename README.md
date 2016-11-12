@@ -9,9 +9,7 @@ in make_spectra.py
 Run as: python pickle_data_lcwp.py <directory> <channel>
 The conversion parameters can be obtained from the LabView "Instrument 
 Parameters" output.
-Returns a file called data/<directory>_<channel>.pkl and another called 
-data/<directory>_<channel>_ped.pkl, both of which are required for
-make_spectra.py
+Returns two files for input to make_spectra.py
 -------------------------------------------------------------------------
 Potential improvements 
 An input file containing information on the 'scope parameters would save 
